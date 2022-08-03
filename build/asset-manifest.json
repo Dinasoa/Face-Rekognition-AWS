@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9bca3693.css",
+    "main.js": "/static/js/main.2ca5b0ed.js",
+    "static/js/787.a33fbba7.chunk.js": "/static/js/787.a33fbba7.chunk.js",
+    "static/media/awsLogo.png": "/static/media/awsLogo.634e95317b09814ad3b4.png",
+    "index.html": "/index.html",
+    "main.9bca3693.css.map": "/static/css/main.9bca3693.css.map",
+    "main.2ca5b0ed.js.map": "/static/js/main.2ca5b0ed.js.map",
+    "787.a33fbba7.chunk.js.map": "/static/js/787.a33fbba7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bca3693.css",
+    "static/js/main.2ca5b0ed.js"
+  ]
+}

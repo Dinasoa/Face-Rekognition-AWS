@@ -1,0 +1,214 @@
+
+.large-screen {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-screen .inputField{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav{
+  background-color: rgb(233, 167, 25);
+}
+
+.navbar{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+
+.footer{
+  background-color: rgb(233, 167, 25);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.show .card-img-top{
+  width: 45vw;
+}
+
+.card-img-top{
+  width: 600px;
+  height: 600px;
+}
+
+.FaceDetails{
+  float: right;
+  width: 50vw;
+  margin-left: 50px;
+}
+
+.loader {
+  animation: rotate 1s infinite;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  transform: translate(-40%, -90%);
+  left: 50%;
+  top: 40%;
+}
+
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.loader:before {
+  animation: ball1 1s infinite;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 30px 0 0 rgb(233, 167, 25);
+  margin-bottom: 10px;
+}
+.loader:after {
+  animation: ball2 1s infinite;
+  background-color: rgb(233, 167, 25);
+  box-shadow: 30px 0 0 rgb(0, 0, 0);
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) scale(0.8) }
+  50% { transform: rotate(360deg) scale(1.2) }
+  100% { transform: rotate(720deg) scale(0.8) }
+}
+
+@keyframes ball1 {
+  0% {
+    box-shadow: 30px 0 0 rgb(233, 167, 25);
+  }
+  50% {
+    box-shadow: 0 0 0 rgb(233, 167, 25);
+    margin-bottom: 0;
+    transform: translate(15px, 15px);
+  }
+  100% {
+    box-shadow: 30px 0 0 #ff3d00;
+    margin-bottom: 10px;
+  }
+}
+
+@keyframes ball2 {
+  0% {
+    box-shadow: 30px 0 0 #ff3d00;
+  }
+  50% {
+    box-shadow: 0 0 0 #ff3d00;
+    margin-top: -20px;
+    transform: translate(15px, 15px);
+  }
+  100% {
+    box-shadow: 30px 0 0 rgb(0, 0, 0);
+    margin-top: 0;
+  }
+}
+
+.img{
+  position: relative !important;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.show{
+  display: flex; 
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card{
+  margin: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.updloadF{
+  margin-left: 42%;
+  padding: 20px;
+}
+
+.svg{
+  cursor: pointer;
+  position : absolute ;
+  right : 0 ;
+  top : 10px ;
+}
+
+.svg-sous{
+  position: absolute;
+  right: 0;
+  top : 30px;
+}
+
+.home{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  background-color: rgb(228, 145, 37);
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.row .li li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.headerTitle{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  border: 3px solid rgb(228, 145, 37);
+}
+
+.homePage{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage h1{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homePage{
+  height: 50px;
+  width: 100px;
+}
+
+
+.homePage .imageHome{
+  width: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-35%, -100%);
+}
+
+.detectFace .FaceDetails .headerTitle{
+  color: rgb(228, 145, 37);
+  font-weight: bolder;
+}
